@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="王任飞的游戏策划作品集。查看《赤栅协议》试玩、卡牌塔防与对战设计、PVP 生存建造案例及工作简历。">
+  <meta name="theme-color" content="#f6f7fc">
+  <title>王任飞｜游戏策划与作品集</title>
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/site.css">
+  <script defer src="assets/site.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到正文</a>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html"><span class="brand__mark" aria-hidden="true">王</span><span>王任飞</span></a>
+      <nav class="site-nav" aria-label="主导航">
+        <a href="index.html#work">作品</a>
+        <a href="index.html#experience">经历</a>
+        <a href="index.html#contact">联系</a>
+        <a class="nav-resume" href="resume.html">简历</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="container hero" aria-labelledby="hero-title">
+      <div class="hero__intro">
+        <p class="role-label"><span class="status-dot" aria-hidden="true"></span>游戏主策划 / 系统策划</p>
+        <h1 id="hero-title">王任飞</h1>
+        <p class="hero__headline">把玩法规则做成<br>玩家能上手的游戏。</p>
+        <p class="hero__summary">负责过 PVP 生存建造项目的建造、战斗和养成，也做过可试玩的卡牌与塔防作品。我把体验目标拆成规则、配置和验收项，跟进到程序和美术交付。</p>
+        <div class="actions">
+          <a class="button button--primary" href="#work">浏览作品</a>
+          <a class="button button--quiet" href="resume.html">查看简历</a>
+        </div>
+      </div>
+
+      <article class="feature" aria-labelledby="featured-title">
+        <a class="feature__visual" href="cases/redgrid.html" aria-label="查看《赤栅协议》案例">
+          <span class="feature__grid" aria-hidden="true"></span>
+          <span class="feature__rail feature__rail--left" aria-hidden="true"></span>
+          <span class="feature__rail feature__rail--right" aria-hidden="true"></span>
+          <img src="assets/redgrid-cover.jpg" alt="《赤栅协议》官方封面，一座塔立在红色网格与瞄准环中央" width="720" height="720" fetchpriority="high">
+        </a>
+        <div class="feature__caption">
+          <div>
+            <p class="project-meta">肉鸽塔防 <span aria-hidden="true">/</span> PC 试玩</p>
+            <h2 id="featured-title"><a href="cases/redgrid.html">赤栅协议</a></h2>
+          </div>
+          <a class="feature__play" href="https://www.taptap.cn/app/989309" target="_blank" rel="noopener noreferrer">TapTap 试玩 <span aria-hidden="true">↗</span></a>
+        </div>
+      </article>
+    </section>
+
+    <section class="section section--work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="work-title">作品案例</h2>
+          <p>从战斗节奏、手牌取舍，到建造规则。</p>
+        </div>
+
+        <div class="case-grid">
+          <article class="case-card case-card--tower">
+            <a class="case-card__link" href="cases/tower-v2.html">
+              <div class="case-card__visual diagram diagram--tower" aria-hidden="true">
+                <div class="tower-routes"><i></i><i></i><i></i></div>
+                <div class="tower-card tower-card--back"><b>范围</b><i></i><i></i><i></i></div>
+                <div class="tower-card tower-card--front"><b>强化</b><span>+1</span></div>
+              </div>
+              <div class="case-card__text">
+                <p class="project-meta">浏览器试玩 <span aria-hidden="true">/</span> 战斗迭代</p>
+                <h3>卡牌塔防 V2</h3>
+                <p>清波后只留 3 秒整备。玩家要在自动接波前分配费用，决定补哪一路。</p>
+                <span class="case-card__more">看战斗迭代<span aria-hidden="true"> ↗</span></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="case-card case-card--duel">
+            <a class="case-card__link" href="cases/card-duel.html">
+              <div class="case-card__visual diagram diagram--duel" aria-hidden="true">
+                <div class="duel-hand">
+                  <span><small>部署</small><b>战斗</b></span>
+                  <span><small>手牌强化</small><b>Buff</b></span>
+                  <span><small>场上落点</small><b>技能</b></span>
+                </div>
+              </div>
+              <div class="case-card__text">
+                <p class="project-meta">Godot 网页原型 <span aria-hidden="true">/</span> 实时对战</p>
+                <h3>双桥对决</h3>
+                <p>强化一张还在手里的战斗牌，还是立刻部署？为三种卡牌定义统一的用牌顺序。</p>
+                <span class="case-card__more">看对战规则<span aria-hidden="true"> ↗</span></span>
+              </div>
+            </a>
+          </article>
+
+          <article class="case-card case-card--build">
+            <a class="case-card__link" href="cases/construction.html">
+              <div class="case-card__visual diagram diagram--build" aria-hidden="true">
+                <div class="build-shapes">
+                  <span class="build-shapes__wall">墙体</span>
+                  <span class="build-shapes__support">地基</span>
+                  <span class="build-shapes__support build-shapes__support--ghost">地基</span>
+                </div>
+              </div>
+              <div class="case-card__text">
+                <p class="project-meta">商业项目 <span aria-hidden="true">/</span> 主策划案例</p>
+                <h3>PVP 生存建造</h3>
+                <p>一面墙有两个支撑点时，拆掉一个会怎样？把吸附、依赖和拆除规则说清楚。</p>
+                <span class="case-card__more">看建造系统<span aria-hidden="true"> ↗</span></span>
+              </div>
+            </a>
+          </article>
+        </div>
+
+        <div class="short-works" aria-labelledby="short-works-title">
+          <h3 id="short-works-title">Game Jam</h3>
+          <a href="https://www.bilibili.com/video/BV1BJfhYqEGT/" target="_blank" rel="noopener noreferrer">
+            <strong>Painty-Pop</strong>
+            <span>GGJ 2025 广州攻壳站 <span class="external-marker" aria-hidden="true">↗</span></span>
+          </a>
+          <a href="https://www.bilibili.com/video/BV1xigrzKEJi/" target="_blank" rel="noopener noreferrer">
+            <strong>Resident Alive</strong>
+            <span>CGJ 2025 广州攻壳站 · 人气第 4 <span class="external-marker" aria-hidden="true">↗</span></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--experience" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <div class="section-heading">
+          <h2 id="experience-title">工作经历</h2>
+          <a class="text-link" href="resume.html">查看完整简历<span aria-hidden="true"> ↗</span></a>
+        </div>
+        <ol class="timeline">
+          <li>
+            <p class="timeline__date">2025.05 至今</p>
+            <div class="timeline__role">
+              <h3>游戏主策划</h3>
+              <p>南昌泰游 / 杭州枕月游光</p>
+            </div>
+            <p class="timeline__detail">负责已获版号的 PVP 生存建造项目。设计建造、战斗和养成模块，和程序、美术负责人定开发节点，审核资源、验收功能并培养新人。</p>
+          </li>
+          <li>
+            <p class="timeline__date">2024.03–2024.06</p>
+            <div class="timeline__role">
+              <h3>系统策划</h3>
+              <p>深圳闪石互动</p>
+            </div>
+            <p class="timeline__detail">迭代俯视角飞船战斗，设计武器挂载、特效发射和战斗交互。完成 5 类武器模板的配置与内部测试。</p>
+          </li>
+          <li>
+            <p class="timeline__date">2023.05–2024.02</p>
+            <div class="timeline__role">
+              <h3>资源策划</h3>
+              <p>多益网络 ·《幻唐志》手游</p>
+            </div>
+            <p class="timeline__detail">负责美术需求、资源审核和入库。落地 5 个宠物及皮肤资产、3 套时装，并与程序共同制定资源提交规范。</p>
+          </li>
+        </ol>
+        <p class="education-line"><span>教育</span>四川大学 · 风景园林本科 <span class="education-line__dates">2016.09–2021.06</span></p>
+      </div>
+    </section>
+
+    <section class="section section--contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact">
+        <div>
+          <h2 id="contact-title">联系我</h2>
+          <p>杭州 · 游戏主策划 / 系统策划</p>
+        </div>
+        <div class="contact__links">
+          <a class="contact__email" href="mailto:535262648@qq.com">535262648@qq.com</a>
+          <div class="contact__actions">
+            <button class="button button--small button--outline" type="button" data-copy-email="535262648@qq.com" hidden>复制邮箱</button>
+            <a class="button button--small button--outline" href="resume.html">打开简历</a>
+          </div>
+          <span class="contact__feedback" data-copy-feedback role="status"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <span>王任飞 <span class="footer-divider" aria-hidden="true">/</span> 游戏策划</span>
+      <a href="index.html">返回首页</a>
+    </div>
+  </footer>
+</body>
+</html>
